@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background-image: url('../images/BgWallpaper.webp');
+}
+
+nav{
+    background-color: #026E5C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-size{
+    width: 130px;
+    height: 130px;
+}
+
+.secciones li{
+    display: inline-block;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #026E5C;
+    height: 40px;
+}
+
+.secciones li a {
+    color: white;
+    border-radius: 10px;
+}
+
+nav ul li a:not(.active):hover {
+    background-color: #85C188;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.mainImg{
+    width: 60vw;
+    height: 40vh;
+    margin: 8vh 0 8vh 0;
+    border: 4px dashed #026E5C;
+    border-radius: 2%;
+    box-shadow: 0 0 30px rgba(86, 192, 95, 0.507);
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mainImg:hover {
+  transform: scale(1.1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #044236;
+    color: #fff;
+    width: 100vw;
+    padding: 20px 0 20px 0;
+    
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-content {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .footer-content h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .footer-content p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-content ul li {
+    margin-bottom: 5px;
+  }
+
+  .footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-content ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-icons li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 50px;
+  }
+
+  .social-icons li a i{
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
